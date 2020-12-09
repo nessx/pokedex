@@ -112,6 +112,28 @@
         app:srcCompat="@drawable/arrows" />
 
     <Button
+        android:id="@+id/btnTop"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="35dp"
+        app:backgroundTint="@color/cardview_shadow_end_color"
+        app:iconTint="@color/cardview_shadow_end_color"
+        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintTop_toTopOf="@+id/imageView3"
+        app:rippleColor="@color/cardview_shadow_end_color" />
+
+    <Button
+        android:id="@+id/btnBottom"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="35dp"
+        app:backgroundTint="@color/cardview_shadow_end_color"
+        app:iconTint="@color/cardview_shadow_end_color"
+        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintTop_toTopOf="@+id/imageView3"
+        app:rippleColor="@color/cardview_shadow_end_color" />
+
+    <Button
         android:id="@+id/btnRight"
         android:layout_width="40dp"
         android:layout_height="40dp"
