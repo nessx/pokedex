@@ -31,8 +31,10 @@ public class fetchData extends AsyncTask<Void, Void, Void> {
     protected ArrayList<String> strTypes; // Create an ArrayList object
     protected String pokSearch;
 
-    public fetchData(String pokSearch) {
-        this.pokSearch = pokSearch;
+    public fetchData(Int pokSearch) {
+        //antes esperaba como entrada un String
+        //this.pokSearch = pokSearch;
+        this.pokSearch = pokSearch.toString();
         strTypes = new ArrayList<String>();
     }
 
