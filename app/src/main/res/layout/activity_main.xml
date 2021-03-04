@@ -145,6 +145,6 @@
         android:scaleType="fitXY"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtDisplay"
-        app:srcCompat="@drawable/btn_blau" />
+        app:srcCompat="@drawable/btn_blau"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
