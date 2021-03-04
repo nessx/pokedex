@@ -84,7 +84,7 @@ public class fetchData extends AsyncTask<Void, Void, Void> {
                     "ID: " + jObject.getString("id");
 
             Log.i("logtest", results);
-            // Get type/types
+            // Get type/types 
             JSONArray types = new JSONArray(jObject.getString("types"));
             for(int i=0; i<types.length(); i++){
                 JSONObject type = new JSONObject(types.getString(i));
